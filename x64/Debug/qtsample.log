@@ -1,0 +1,25 @@
+﻿Build started 4/6/2016 12:37:45.
+     1>Project "C:\a\other\qtsample\qtsample\qtsample.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\qtsample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\qt\src_5_3_2_64bit\5.3\Src\qtbase\include /I.\GeneratedFiles\Debug /IC:\qt\src_5_3_2_64bit\5.3\Src\qtbase\include\QtCore /IC:\qt\src_5_3_2_64bit\5.3\Src\qtbase\include\QtGui /IC:\qt\src_5_3_2_64bit\5.3\Src\qtbase\include\QtNetwork /IC:\qt\src_5_3_2_64bit\5.3\Src\qtbase\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt cfgstore.cpp
+         cfgstore.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\a\other\qtsample\x64\Debug\\qtsample.exe" /NOLOGO /LIBPATH:C:\qt\src_5_3_2_64bit\5.3\Src\qtbase\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\a\other\qtsample\x64\Debug\qtsample.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\a\other\qtsample\x64\Debug\qtsample.lib" /MACHINE:X64 x64\Debug\cfgstore.obj
+         x64\Debug\moc_qtsample.obj
+         x64\Debug\qrc_qtsample.obj
+         x64\Debug\main.obj
+         x64\Debug\qtsample.obj
+         qtsample.vcxproj -> C:\a\other\qtsample\x64\Debug\qtsample.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\qtsample.unsuccessfulbuild".
+         Touching "x64\Debug\qtsample.lastbuildstate".
+     1>Done Building Project "C:\a\other\qtsample\qtsample\qtsample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04
